@@ -200,6 +200,37 @@ ul {
 .sub-nav a:hover {
     background-color: #3a4553;
 }
+/* SLIDES */
+
+
+.slider-novedades{
+    position: relative;
+}
+
+
+.slider-btn-atras{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    left: 375px;
+}
+
+.slider-btn-adelante{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    right: 480px;
+}
 
 /* ========================================
    CONTENIDO PRINCIPAL
