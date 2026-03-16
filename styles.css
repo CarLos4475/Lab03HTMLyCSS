@@ -326,7 +326,7 @@ ul {
 /* Título del producto */
 .product-title {
     font-size: 14px;
-    color: #007185;
+    color: #070707;
     font-weight: normal;
     margin-bottom: 10px;
     line-height: 1.4;
@@ -337,7 +337,7 @@ ul {
 }
 
 .product-title:hover {
-    color: #c7511f;
+    color: #080808;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -366,6 +366,14 @@ ul {
     position: relative;
     top: 2px;
 }
+
+/*Estrellas  */
+.stars{
+    font-size: 10PX;
+}
+ .num_estrellas{
+    font-size: 15px;
+ }
 
 /* Botón agregar al carrito */
 .btn-add-cart img {
