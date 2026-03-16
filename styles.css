@@ -425,10 +425,32 @@ ul {
    FOOTER
    ======================================== */
 
+.texto1{
+    padding-left: 50px;
+}
+.Info-AliEx a{
+    display: block;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #6e6e6e;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
 
+.lista-pago{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.lista-pago li img{
+    width: 20px;
+    height: 20px;
+}
 /* Sección de enlaces */
 .footer-links {
-    background-color: #232f3e;
+    background-color: #fafcfd;
     padding: 40px 0;
 }
 
@@ -439,7 +461,7 @@ ul {
 }
 
 .footer-column h4 {
-    color: #ffffff;
+    color: #070707;
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -449,7 +471,7 @@ ul {
 }
 
 .footer-column ul li a {
-    color: #ddd;
+    color: #050505;
     font-size: 14px;
     transition: color 0.2s;
 }
